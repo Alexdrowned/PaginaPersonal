@@ -14,26 +14,26 @@
 }
 
 
-#slide{
+#side{
     background-color: rgb(65, 156, 100);
     margin-bottom: 4em;
     
 }
 
-#slide header {
+#side header {
     background-color: rgb(243, 81, 81);
     color: white;
     padding: 1.5em;
     text-align: center;
     
 }
-#slide header h3{
+#side header h3{
     margin: 0;
 }
-#slide h4{
+#side h4{
     margin-left: .2em;
 }
-#slide li{
+#side li{
     cursor: pointer;
     margin-right: .2em;
 }
@@ -41,7 +41,7 @@
 #randomImg{
     margin-left: .2em;
 }
-#slide img{
+#side img{
     width: 13em;
     height: 12em;
     margin-left: 1.3em;

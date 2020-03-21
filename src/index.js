@@ -13,10 +13,15 @@ import AboutMe from './public/templates/AboutMe';
 import Blog from './public/templates/Blog';
 import LoginS from './public/templates/LoginS';
 import Contact from './public/templates/Contact';
-
+import BlogSide from './public/templates/BlogSide';
 //Imagenes Random
 import RandomImage from './public/templates/RandomImage';
-//
+
+//Partes del Side
+import AuxiliarSide from './public/templates/AuxiliarSide';
+
+import SideFunctions from './public/templates/SideFunctions';
+
 document.getElementById('H').innerHTML = Header();
 document.getElementById('F').innerHTML = Footer();
 
@@ -24,13 +29,6 @@ document.getElementById('F').innerHTML = Footer();
 document.getElementById("About").onclick =  function(){
   document.getElementById('B').innerHTML = AboutMe();
 };
-
-document.getElementById("Publisher").onclick =  function(){
-  document.getElementById('B').innerHTML = Blog(1);
-  document.getElementById('randomImg').innerHTML = RandomImage();
-  
-};
-
 document.getElementById("Contact").onclick =  function(){
   document.getElementById('B').innerHTML = Contact();
 };
@@ -38,4 +36,22 @@ document.getElementById("Contact").onclick =  function(){
 document.getElementById("Login").onclick =  function(){
   document.getElementById('B').innerHTML = LoginS();
 };
+
+
+document.getElementById("Publisher").onclick =  function(){
+  document.getElementById('B').innerHTML = Blog(2);
+  document.getElementById('side').innerHTML = BlogSide();
+  document.getElementById('randomImg').innerHTML = RandomImage();
+  if(document.getElementsByClassName('list')!=null)
+    AuxiliarSide();
+};
+/*
+
+
+document.getElementById('Rol').onclick = function(){
+  document.getElementById('B').innerHTML = Blog(3);
+  document.getElementById('side').innerHTML = BlogSide();
+  document.getElementById('randomImg').innerHTML = RandomImage();
+}
+*/
 
