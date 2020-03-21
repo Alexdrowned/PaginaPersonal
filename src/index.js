@@ -3,6 +3,7 @@ import './public/styles/css/footer.css';
 import './public/styles/css/header.css';
 import './public/styles/css/forms.css';
 import './public/styles/css/blog.css';
+import './public/styles/css/Login.css'
 // import './src/public/styles/css'
 //Se importan el header y footer
 import Header from './public/templates/Header';
@@ -45,13 +46,4 @@ document.getElementById("Publisher").onclick =  function(){
   if(document.getElementsByClassName('list')!=null)
     AuxiliarSide();
 };
-/*
-
-
-document.getElementById('Rol').onclick = function(){
-  document.getElementById('B').innerHTML = Blog(3);
-  document.getElementById('side').innerHTML = BlogSide();
-  document.getElementById('randomImg').innerHTML = RandomImage();
-}
-*/
 

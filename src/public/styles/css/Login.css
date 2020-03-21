@@ -1,0 +1,35 @@
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.login article{
+    width: 18em;
+}
+
+#B .login article .container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#B .login article .container form{
+    width: 20em;
+}
+#B .login article .container  input[type=text]{
+    width: 12em;
+    margin: 0;
+    border: 0;
+    padding: .2em;
+    margin-left: 1em;
+}
+#B .login article .container  input[type=password]{
+    width: 12em;
+    margin: 0;
+    border: 0;
+    padding: .2em;
+    margin-left: 1em;
+}
+#B  .login article .container input[type=submit]{
+    width: 4em;
+}
