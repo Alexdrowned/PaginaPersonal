@@ -46,3 +46,17 @@
     height: 12em;
     margin-left: 1.3em;
 }
+
+@media (max-width: 700px) {
+    #blog{
+        flex-direction: column;
+    }
+    #card {
+        width: 100%;
+        margin: 0;
+    }
+    #card img{
+        width: 100%;
+
+    }
+}

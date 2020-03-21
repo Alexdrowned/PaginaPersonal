@@ -6,6 +6,7 @@
     flex-direction: column;
     width: 95%;
     justify-content: center ;
+    padding-left: .1em;
     
  }
  #B label{
@@ -16,6 +17,7 @@
     border: .1em solid #ccc;
     padding: .1em;
     margin: .3em;
+    height: 5em;
   }
 
 #B  input[type=text] {
@@ -30,4 +32,33 @@
     border:none;
     margin: 1em;
     background-color:#FEDEDA;  
+  }
+
+  @media (max-width: 700px) {
+
+
+    #B form{
+      margin: 0;
+      width: 100%;
+    }
+
+    #B form input[type=text]{
+      width: 10em;
+
+    }
+    #B form #topicForm{
+      width: 20em;
+    }
+    textarea {
+      width: 95%;
+      border: .1em solid #ccc;
+      padding: .1em;
+      margin: .3em;
+      height: 3em;
+    }
+
+    #B form input[type=submit]{
+      width: 5em;
+      border:none;  
+    }
   }
