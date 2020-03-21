@@ -8,7 +8,19 @@ const Blog = (number) => {
                 <p>Por favor no le digas a nadie... o kirby te comera</p>
             </div>
             <div id='slide'>
-                <p>Esto es una barrita mas pequeña</p>
+                <header>
+                    <h3>Publicaciones</h3>
+                </header>
+                <div id='randomImg'>
+                </div>
+                <h4>Otras publicaciones</h4>
+                <ul>
+                    <li>Doom: Opinion</li>
+                    <li>Organizacion en Proyectos</li>
+                    <li>League of Legends: Opinion</li>
+                    <li>Git simplemente deberias amarlo</li>
+                    <li>Juegos de Rol: Primer experiencia</li>
+                </ul>  
             </div>
         </div>
         `,

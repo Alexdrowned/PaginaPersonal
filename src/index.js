@@ -14,17 +14,21 @@ import Blog from './public/templates/Blog';
 import LoginS from './public/templates/LoginS';
 import Contact from './public/templates/Contact';
 
+//Imagenes Random
+import RandomImage from './public/templates/RandomImage';
 //
 document.getElementById('H').innerHTML = Header();
 document.getElementById('F').innerHTML = Footer();
 
-
+//Events
 document.getElementById("About").onclick =  function(){
   document.getElementById('B').innerHTML = AboutMe();
 };
 
 document.getElementById("Publisher").onclick =  function(){
   document.getElementById('B').innerHTML = Blog(1);
+  document.getElementById('randomImg').innerHTML = RandomImage();
+  
 };
 
 document.getElementById("Contact").onclick =  function(){
@@ -34,3 +38,4 @@ document.getElementById("Contact").onclick =  function(){
 document.getElementById("Login").onclick =  function(){
   document.getElementById('B').innerHTML = LoginS();
 };
+
