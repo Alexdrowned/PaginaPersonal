@@ -4,9 +4,9 @@ const Header = () => {
         <header>
             <div class='left'>
                 <div>
-                <img src="../src/public/assets/icons/gato.png" alt="Michi">
+                <img src='../src/public/assets/icons/gato.png' alt='Michi'>
                 </div>
-                <h2><a href="">Neko-developer</a></h2>
+                <h2><a href=''>Neko-developer</a></h2>
             </div>
             <div class='rigth'>
                     <button id='Publisher'> Publicaciones </button>

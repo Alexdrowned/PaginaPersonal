@@ -1,0 +1,14 @@
+#card img{
+    width: 80%;
+    height: 70%;
+}
+
+#card{
+    margin: 3em;
+    width: 70%;
+}
+
+#blog{
+    display: flex;
+    flex-direction: row;
+}
