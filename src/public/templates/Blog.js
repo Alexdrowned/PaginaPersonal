@@ -41,7 +41,8 @@ const Blog = (number) => {
             <div id='card'>
                 <h1>League of Legends</h1>
                 <img src='../src/public/assets/images/LoL.jpg' alt='Lol'>
-                <p></p>
+                <p>Este juego lo amas u odias, pero es un buen juego, les dejo mi
+                nickname SirArtie</p>
             </div>
             <div id='side'>  
             </div>
